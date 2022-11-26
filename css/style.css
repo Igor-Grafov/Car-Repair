@@ -257,7 +257,7 @@ a {
 /* end our services */
 /* start customers */
 .customers {
-  margin-bottom: 130px;
+  margin-bottom: 210px;
 }
 
 .customers__inner {
@@ -298,3 +298,75 @@ a {
   font-weight: 700;
 }
 /* end customers  */
+/* start impact */
+.impact {
+  background-color: #02133c;
+  background-image: url("../img/impact__bg.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: #fff;
+}
+
+.impact__inner {
+  position: relative;
+}
+.impact__inner::before {
+  content: "";
+  background: url("../img/car__impact.jpg") 0 0 no-repeat;
+  width: 500px;
+  height: 315px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: -80px;
+}
+
+.impact-title {
+  padding-top: 112px;
+  margin-bottom: 80px;
+}
+
+.preference-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 135px;
+}
+.preference-list__item {
+  display: flex;
+  align-items: center;
+}
+.preference-image {
+  padding-right: 11px;
+}
+.preference__title {
+  color: #c40b0b;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 900;
+}
+.preference__text {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+.impact__sed-do {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: -80px; */
+  padding-right: 76px;
+}
+.sed-do__title {
+  color: #02133c;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  width: 690px;
+  padding: 23px 101px 28px 70px;
+}
+
+/* end impact */
+.footer {
+  width: 100px;
+  background-color: #fff;
+}
